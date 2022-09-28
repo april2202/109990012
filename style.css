@@ -11,10 +11,11 @@
   height: 80%; 
   top: 10%; 
   left: 10%; 
-	margin: 0 auto;
-	width: 90%;
-	margin-left: 20px;
+  margin: 0 auto;
+  width: 90%;
+  margin-left: 20px;
   margin-bottom: 10px;
+  align:justify;
 }
 
 .italic_bold
