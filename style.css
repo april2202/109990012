@@ -1,0 +1,23 @@
+.image 
+{
+  width: 250px;
+    content:url(https://www-en.ntut.edu.tw/var/file/6/1006/img/1776/logo_color.svg);
+}
+
+.text
+{
+  font-family:verdana;
+  font-size:20px;
+  height: 80%; 
+  width: 100%; 
+  top: 10%; 
+  left: 10%; 
+}
+
+.italic_bold
+{
+  font-family:verdana;
+  font-size:20px;
+  font-weight: bold;
+  font-style: italic;
+}
