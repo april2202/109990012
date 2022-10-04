@@ -1,10 +1,35 @@
 .image 
 {
   width: 250px;
-    content:url(https://www-en.ntut.edu.tw/var/file/6/1006/img/1776/logo_color.svg);
+  content:url(https://www-en.ntut.edu.tw/var/file/6/1006/img/1776/logo_color.svg);
+  margin-left: 30px;
 }
 
-.text
+h1
+{
+  font-family:verdana;
+  height: 80%; 
+  top: 10%; 
+  left: 10%; 
+  width: 80%;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  text-align:justify;
+}
+
+h2
+{
+  font-family:verdana;
+  height: 80%; 
+  top: 10%; 
+  left: 10%; 
+  width: 80%;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  text-align:justify;
+}
+
+p
 {
   font-family:verdana;
   font-size:20px;
@@ -14,7 +39,8 @@
   width: 80%;
   margin-left: 40px;
   margin-bottom: 10px;
-  align:justify;
+  text-align:justify;
+  color:darkblue;
 }
 
 .italic_bold
@@ -23,4 +49,26 @@
   font-size:20px;
   font-weight: bold;
   font-style: italic;
+}
+
+div.content
+{
+  overflow: auto;
+  border: 3px;
+  resize: both;
+  width: 70px;
+}
+
+.left
+{
+  float:left;
+  width: 50%;
+  background-color: #8ebf42;
+}
+
+.right
+{
+  float:right;
+  width: 50%;
+  background-color: #1faadb;
 }
