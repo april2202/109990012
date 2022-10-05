@@ -1,0 +1,45 @@
+h1
+{
+    font-family: Tahoma;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+h2
+{
+    font-family: Tahoma;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+
+li
+{
+    font-family: Tahoma;
+    font-size:12;
+    color: white;
+}
+
+p{
+    font-family: verdana;
+    font-size: 12px;
+    color: white;
+}
+
+.left_div
+{
+  float:left;
+  width: 30%;
+}
+
+.right_div
+{
+  float:right;
+  width: 70%;
+}
+
+a
+{
+    color:yellow;
+}
