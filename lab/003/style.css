@@ -3,16 +3,20 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #081428;
+    background-color: #251b37;
   }
   
   .nav a{
     float: left;
-    color: grey;
+    background-color: #251b37;
+    color: #00ffff;
     text-align: center;
     padding: 14px;
+    
   }
   
   .nav a:hover {
-    background-color: #23aba7;
+    background-color: #372948;
+    color:whitesmoke;
   }
+  

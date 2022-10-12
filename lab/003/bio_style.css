@@ -39,11 +39,25 @@ p{
   width: 70%;
 }
 
-a
-{
-    color:yellow;
-}
-
+.red_ul li::before {
+    content:"•";
+    display: inline-block; width: 1em;
+    margin-left: -1em;
+    color: red;
+  }
+  .green_ul li::before {
+    content:"•";
+    display: inline-block; width: 1em;
+    margin-left: -1em;
+    color: green;
+  }
+  .blue_ul li::before {
+    content:"•";
+    display: inline-block; width: 1em;
+    margin-left: -1em;
+    color: blue;
+  }
+  
 .nav {
     list-style-type: none;
     margin: 0;

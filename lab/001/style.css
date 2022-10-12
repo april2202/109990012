@@ -72,3 +72,22 @@ div.content
   width: 50%;
   background-color: #1faadb;
 }
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #081428;
+}
+
+.nav a{
+  float: left;
+  color: grey;
+  text-align: center;
+  padding: 14px;
+}
+
+.nav a:hover {
+  background-color: #23aba7;
+}
