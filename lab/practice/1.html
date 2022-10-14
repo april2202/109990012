@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .column {
+        float: left;
+        width: 50%;
+        padding: 5px;
+      }
+
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .effect {
+        -webkit-filter: sepia(0.75);
+        filter: sepia(0.75);
+        border: 5px solid #555;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="column">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/7/7d/Lenna_%28test_image%29.png"
+          alt="Snow"
+          style="width: 100%; border: 5px solid #555"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/7/7d/Lenna_%28test_image%29.png"
+          alt="Forest"
+          width="100%"
+          class="effect"
+        />
+      </div>
+    </div>
+
+    <table>
+      <tr>
+        <th>amogus</th>
+        <th>sus</th>
+      </tr>
+      <tr>
+        <td>bruh</td>
+        <td>lmao</td>
+      </tr>
+    </table>
+  </body>
+</html>
