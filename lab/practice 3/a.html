@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="myscript.js"></script>
+  </head>
+  <style></style>
+  <body>
+    <!--Table-->
+    <table id="my_table">
+      <tr>
+        <th>math</th>
+        <th>english</th>
+        <th>programming</th>
+      </tr>
+      <tr>
+        <td>90</td>
+        <td>60</td>
+        <td>80</td>
+      </tr>
+      <tr>
+        <td>80</td>
+        <td>86</td>
+        <td>98</td>
+      </tr>
+    </table>
+
+    <p>Change table width</p>
+    <input type="button" onclick="changeBorderWidth200()" value="200px" />
+    <input type="button" onclick="changeBorderWidth500()" value="500px" />
+    <p>Change table border spacing width</p>
+    <input type="button" onclick="changeSpacing1()" value="1px" />
+    <input type="button" onclick="changeSpacing15()" value="15px" />
+    <input type="button" onclick="changeSpacing20()" value="20px" />
+    <p>Change the table color</p>
+    <input
+      type="button"
+      style="background-color: red"
+      onclick="changeColorRed()"
+      value="     "
+    />
+    <input
+      type="button"
+      style="background-color: cyan"
+      onclick="changeColorCyan()"
+      value="     "
+    />
+    <input
+      type="button"
+      style="background-color: pink"
+      onclick="changeColorPink()"
+      value="     "
+    />
+    <input
+      type="button"
+      style="background-color: lime"
+      onclick="changeColorLime()"
+      value="     "
+    />
+    <p></p>
+    <input type="button" onclick="resetShit()" value="reset" />
+  </body>
+</html>
