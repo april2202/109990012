@@ -1,24 +1,17 @@
-      //change border width
-      function changeBorderWidth200() {
-        document.getElementById("my_table").style.cssText = "width: 200px";
-      }
-      function changeBorderWidth500() {
-        document.getElementById("my_table").style.cssText = "width: 500px";
-      }
+//change border width
+function changeBorderWidth(val) {
+  document.getElementById("my_table").style.cssText = "width:"+val+"px";
+}
 
-      function changeSpacing1() {
-        document.getElementById("my_table").style.cssText =
-          "border-spacing: 1px";
-      }
-      function changeSpacing15() {
-        document.getElementById("my_table").style.cssText =
-          "border-spacing: 15px";
-      }
-      function changeSpacing20() {
-        document.getElementById("my_table").style.cssText =
-          "border-spacing: 20px";
-      }
-      function changeColorRed() {
+function changeSpacing(val) {
+   document.getElementById("my_table").style.cssText = "border-spacing:"+val+"px";
+}
+
+function changeSpacing(clr) {
+  document.getElementById("dog").style.cssText = "background-color:"+clr;
+}
+      function
+       changeColorRed() {
         for (var i = 0; i < 12; i++)
           document.getElementsByTagName("td")[i].style.cssText =
             "background-color:red";
